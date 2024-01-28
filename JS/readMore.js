@@ -3,6 +3,8 @@ let first = document.getElementById('captionFirst').innerText
 let second = document.getElementById('captionSecond').innerText
 let third = captionContent = document.getElementById('captionThird').innerText
 
+let moretext = "Being with you is always a source of profound joy."
+
 //readmore functions
 function captionFirst() {
     if (first.length > 8) {
@@ -20,7 +22,7 @@ function captionThird() {
     }
 }
 function readMoreFirst() {
-    $("#captionFirst").text(first)
+    $("#captionFirst").text(moretext)
     $("#btn-1").hide()
 
 }
